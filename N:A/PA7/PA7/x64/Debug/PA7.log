@@ -1,0 +1,13 @@
+﻿  Func.cpp
+\\Mac\Home\Desktop\PA7\PA7\Func.cpp(2787,6): warning C4101: 'i5': unreferenced local variable
+\\Mac\Home\Desktop\PA7\PA7\Func.cpp(2785,6): warning C4101: 'i3': unreferenced local variable
+\\Mac\Home\Desktop\PA7\PA7\Func.cpp(2784,6): warning C4101: 'i2': unreferenced local variable
+\\Mac\Home\Desktop\PA7\PA7\Func.cpp(2786,6): warning C4101: 'i4': unreferenced local variable
+\\Mac\Home\Desktop\PA7\PA7\Func.cpp(2783,6): warning C4101: 'i1': unreferenced local variable
+\\Mac\Home\Desktop\PA7\PA7\Func.cpp(2759,6): warning C4101: 'new_deck': unreferenced local variable
+  Main.cpp
+  Generating Code...
+\\Mac\Home\Desktop\PA7\PA7\Func.cpp(65): warning C4715: 'game_menu': not all control paths return a value
+\\Mac\Home\Desktop\PA7\PA7\Func.cpp(84): warning C4715: 'replace_ask': not all control paths return a value
+\\Mac\Home\Desktop\PA7\PA7\Func.cpp(102): warning C4715: 'walk_ask': not all control paths return a value
+  PA7.vcxproj -> \\Mac\Home\Desktop\PA7\x64\Debug\PA7.exe

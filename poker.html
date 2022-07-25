@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content=" IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB1</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function() {});
+    </script>
+
+    <link href= "style3.css" type= "text/css" rel= "stylesheet">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class = "M">
+        <div class = "M-BTN-TOG" onclick="toggleNav()"></div>
+        <ul class = "M-L">
+            <li class = "M-L-I"><a class = "M-L-I-A" href = "index3.html">Home</a></li>
+            <li class = "M-L-I"><a class = "M-L-I-A" href = "#">Portfolio</a></li>
+            <li class = "M-L-I"><a class = "M-L-I-A" href = "#">About Us</a></li>
+            <li class = "M-L-I"><a class = "M-L-I-A" href = "#">Gallery</a></li>
+            <li class = "M-L-I"><a class = "M-L-I-A" href = "#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <aside class = "S">
+        <ul class = "S-L">
+            <li class = "S-L-I"><span class = "S-L-I-S">Projects</span></li>
+            <li class = "S-L-I"><a class = "S-L-I-A" href = "poker.html">Poker Project</a></li>
+            <li class = "S-L-I"><a class = "S-L-I-A" href = "#">Making A Website</a></li>
+            <li class = "S-L-I"><a class = "S-L-I-A" href = "#">Creating A Video</a></li>
+            <li class = "S-L-I"><a class = "S-L-I-A" href = "#">Optimizing A Website</a></li>
+            <li class = "S-L-I"><a class = "S-L-I-A" href = "#">Posting A Website</a></li>
+        </ul>
+    </aside>
+
+
+    <div class = "T">
+        <h1 class="T-TIT">Welcome to the Poker Project</h1>
+        <article class="T-ART">Press [Enter] to Start Poker</article>
+    </div>
+
+    <div class = "R">
+        <a class = "R-LINK" href = "https://en.wikipedia.org/wiki/Five-card_draw" target="_blank">Click Here to Read Rules</a>
+    </div>
+
+    <div class = "Start">
+        <article  class="startText"></article> 
+        <label class="start1">Enter a starting bank balance: $<input class= "start2" type = "number"></label>
+        <button type="button" class="startSub">submit</button>
+        <!--<article class="new1">Press enter a choosen card and press [Enter] to change card *Max 5*</article>
+        <article class="new1">Press [Enter] + [Shift] to Continue (Clear Number Box!)</article>-->
+    </div>
+
+
+    <div class = "Wager">
+        <article  class="wagerText">Current Balance: $</article> 
+        <label class="wager1">Current Wager: $<input class= "wager2" type = "number"></label>
+        <button type="button" class="wagerSub">submit</button>
+        <!--<article class="new1">Press enter a choosen card and press [Enter] to change card *Max 5*</article>
+        <article class="new1">Press [Enter] + [Shift] to Continue (Clear Number Box!)</article>-->
+    </div>
+
+    
+
+    <div class = "P-C">
+        <ul class = "P-C-L">
+            <li class = "P-C-L-I">
+                <img class = "P-C-L-I-A-1" src = "Cards/red_joker.png"/>
+            </li>
+            <li class = "P-C-L-I">
+                <img class = "P-C-L-I-A-2" src = "Cards/red_joker.png"/>
+            </li>
+            <li class = "P-C-L-I">
+                <img class = "P-C-L-I-A-3" src = "Cards/red_joker.png"/>
+            </li>
+            <li class = "P-C-L-I">
+                <img class = "P-C-L-I-A-4" src = "Cards/red_joker.png"/>
+            </li>
+            <li class = "P-C-L-I">
+                <img class = "P-C-L-I-A-5" src = "Cards/red_joker.png"/>
+            </li>
+        </ul>
+    </div>
+
+    <div class = "Swap">
+        <label class="num1">Enter the Card you would like to swap: <input class= "num2" type = "number"></label>
+        <!-- <button type="button" class="submit">submit</button> -->
+        <article class="num3">Press enter a choosen card and press [Enter] to change card *Max 5*</article>
+        <article class="num3">Press [Enter] + [Shift] to Continue (Clear Number Box!)</article>
+    </div>
+
+    <div class = "C-C">
+        <ul class = "C-C-L">
+            <li class = "C-C-L-I">
+                <img class = "C-C-L-I-A-1" src = "Cards/black_joker.png"/>
+            </li>
+            <li class = "C-C-L-I">
+                <img class = "C-C-L-I-A-2" src = "Cards/black_joker.png"/>
+            </li>
+            <li class = "C-C-L-I">
+                <img class = "C-C-L-I-A-3" src = "Cards/black_joker.png"/>
+            </li>
+            <li class = "C-C-L-I">
+                <img class = "C-C-L-I-A-4" src = "Cards/black_joker.png"/>
+            </li>
+            <li class = "C-C-L-I">
+                <img class = "C-C-L-I-A-5" src = "Cards/black_joker.png"/>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div class = "New">
+        <article  class="winText">hello</article>
+        <button onclick = "location.reload()" type ="button" class="reload">play again?</button> 
+        <article  class="winText2">hello</article> 
+        <label class="new1"> Type 1 to Exit / Type 2 to play again: <input class= "new2" type = "number"></label>
+        <button type="button" class="submit">submit</button>
+        <!--<article class="new1">Press enter a choosen card and press [Enter] to change card *Max 5*</article>
+        <article class="new1">Press [Enter] + [Shift] to Continue (Clear Number Box!)</article>-->
+    </div>
+    
+
+</body>
+<script src="webNav.js"></script>
+<script src= "poker3.js"></script>
+</html>
