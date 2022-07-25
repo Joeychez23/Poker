@@ -126,7 +126,7 @@ input, select {
 
 /*Menu Navigation Start*/
 body {
-    background-image: url("/Users/joeysanchez/Desktop/TimeLost/PG2/blue-background.jpg");
+    background-image: url('blue-background.jpg');
 }
 
 .M {
@@ -144,7 +144,7 @@ body {
     width: 60px;
     height: 100%;
     background-color: black;
-    background-image: url("/Users/joeysanchez/Desktop/TimeLost/PG2/menu.png");
+    background-image: url('menu.png');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
