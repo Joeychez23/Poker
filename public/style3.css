@@ -892,7 +892,7 @@ body {
     .startSub{
         display: block;
         margin: auto;
-        width: 10%;
+        width: 100px;
         /*border: 2px solid yellow;*/
         grid-column: 2/2;
         color: white;
@@ -970,7 +970,7 @@ body {
     .wagerSub{
         display: block;
         margin: auto;
-        width: 10%;
+        width: 100px;
         /*border: 2px solid yellow;*/
         grid-column: 2/2;
         color: white;
