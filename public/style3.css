@@ -1157,6 +1157,7 @@ body {
         visibility: hidden;
         /*border: 2px solid purple;*/
         margin-top: 10px;
+        margin-bottom: 10px;
         grid-template-columns: 60px 1fr;
         height: 50px; 
     }
@@ -1272,7 +1273,7 @@ body {
         visibility: hidden;
         display: block;
         margin: auto;
-        width: 10%;
+        width: 100px;
         /*border: 2px solid yellow;*/
         grid-column: 2/2;
         color: white;
